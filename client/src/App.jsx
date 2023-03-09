@@ -4,6 +4,7 @@ import Login from './components/login'
 import Dashboard from './components/dashboard'
 
 const code = new URLSearchParams(window.location.search).get('code') 
+//console.log(code)
 
 function App() {
   return (
